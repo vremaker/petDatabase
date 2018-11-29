@@ -1,0 +1,65 @@
+/**
+ * Name: Valerie Remaker
+ * Section: CSE154 AD
+ * Date: 11/29/18
+ *
+ * CSS Styling for remaker cat database. Fairly simple styling
+ */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body, button, input, textarea {
+  font-family: 'Bree Serif', serif;
+}
+
+section, h1, td {
+  text-align: center;
+}
+
+button {
+  height: 10%;
+  font-size: 10pt;
+  width: 25%;
+}
+
+#errorMessage {
+  color : red;
+  text-align: center;
+}
+
+#buttons {
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+td {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#response, #insert {
+  display: flex;
+  justify-content: center;
+}
+
+#insert {
+  flex-flow: row wrap;
+}
+
+#response {
+  min-height: 200px;
+
+}
+
+.hidden {
+  display: none;
+}
